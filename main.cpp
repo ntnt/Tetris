@@ -6,7 +6,7 @@
 #include <iomanip>
 #include <iostream>
 #include <fstream>
-#include "resource/resource.h"
+// #include "resource/resource.h"
 using namespace sf;
 using namespace std;
 const int M = 20;
