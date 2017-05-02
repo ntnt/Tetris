@@ -205,10 +205,10 @@ void Init(T (&n)[N])
  gameoverbg.setFillColor(Color(0,0,0,150));
  gameoverbg.setPosition(10,200);
  gameoverbg.setSize(Vector2f(300, 100));
- t1.loadFromFile("images/tiles.png");
- try {if (!t2.loadFromFile("images/background.png")) throw EXIT_FAILURE;}
+ t1.loadFromFile("/images/tiles.png");
+ try {if (!t2.loadFromFile("/images/background.png")) throw EXIT_FAILURE;}
  catch(int& exc) { cout << "Blad ladowania tla " << exc << endl;}
- t3.loadFromFile("images/frame.png");
+ t3.loadFromFile("/images/frame.png");
 
     // fonts
  try { if (!czciona.loadFromFile("images/BGOTHL.TTF")) throw EXIT_FAILURE;}
