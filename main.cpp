@@ -255,7 +255,6 @@ void Init(T (&n)[N])
      c[i].y = figures[n[1]][i] / 2;
      }
  //string punkty;
- //hscoreSource << "GOWNO NIE UMIEM" << endl;
  //hscoreSource >> punkty;
  //cout << hscoreSource << endl;
 }
